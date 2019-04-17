@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  background-image: url("https://www.printawallpaper.com/upload/designs/european_cafe_detail.jpg");
+  background-size: cover;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: 10% 90%;
+  padding: 10% 10%;
+}
+
+.mainHeader {
+  width: 60%;
+  height: 600px;
+  background-color: #000;
+  text-align: center;
+}
+
+.restaurantName {
+  padding: 3%;
+  color: white;
+  font-family: cursive;
+}
+
+.borderBottom {
+  border-bottom: 1px solid white;
+  margin: 0 10%;
+}
+
+.restaurantDetail {
+  color: white;
+  margin: 10% 4% 0 4%;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.tabDiv {
+  width: 60%;
+  background-color: #cfcfc4;
+  display: flex;
+  text-align: center;
+}
+
+.tabDiv ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.tabDiv ul li {
+  padding: 10%;
+  border-right: 1px solid black;
+  height: 100%;
+  color: #fff;
+}
+
+.tabDiv ul li:hover {
+  background-color:#A9A9A9;
+}
+
+.tabDiv ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.tabDiv ul li:last-child {
+  border-right: none;
+}
+
+/*Main Div*/
+.mainDiv {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.mainDiv h1 {
+  padding: 10%;
+}
+
+.active {
+  background-color: #61605f;
+}
